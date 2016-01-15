@@ -1,0 +1,13 @@
+---
+# handlers file for wye
+- name: restart wye_uwsgi
+  service: name=wye_uwsgi state=restarted
+
+- name: reload wye_uwsgi
+  service: name=wye_uwsgi state=reloaded
+
+- name: restart nginx
+  service: name=nginx state=restarted
+
+- name: reload nginx
+  service: name=nginx state=reloaded

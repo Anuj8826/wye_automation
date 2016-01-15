@@ -1,0 +1,14 @@
+---
+wye_user: vagrant
+wye_db: wye_db
+wye_db_user: wye_db_user
+wye_db_pass: wye_db_pass
+wye_repo: https://github.com/pythonindia/wye.git
+email_host_user: email_host_user
+email_host_password: email_host_password
+admins: {"Anuvrat Parashar": "anuvrat@anuvrat.in", "Saurabh Kumar": "thes.kumar@gmail.com"}
+
+wye_hostname: wye_hostname
+google_analytics_id: google_analytics_id
+explara_api_token: explara_api_token
+qr_codes_dir: qr_codes_dir
